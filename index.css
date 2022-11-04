@@ -48,22 +48,70 @@ table {
 }
 
 
-/* was setting this up to use rem (66.25%?) */
 * {
-   
+	box-sizing: border-box;
+	font-size: 62.5%;
+	display:inline-block;
 }
 
-nav a {
-    height: 2 rem;
+header img {
+	border-radius: 50%;
+	max-width: 20%;
+
 }
-nav a .plan{
+
+img {
+	border-radius: 10px;
+	object-fit: scale-down;
+}
+header {
+	height: 15%;
+}
+
+h1 {
+	font-family: Chelsea Market ;
+	font-size: 1.8rem;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+}
+
+.content-row {
+	display: flex;
+  }
+  
+  .content-row div {
+	/*======= create a margin propery.  Set the value to 20px */
+	margin: 20px;
+  }
+
+.container nav a {
+	margin: 0 10px;
+	border: 1px solid lightgray;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 20px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 20px;
+	 /*======= create a background property. Set the value to #F87B99 */
+	background: #F87B99;
+  }
+nav  {
+	margin: 0 auto;
+	border: 2px solid red;
+    height: 5rem;
+	padding: 1%;
+}
+nav a.plan{
     background-color: #FF764E;
 }
 
-nav a .learn {
+nav a.learn {
     background-color: #5ED3EB;
 }
 
-nav a .getInvolved {
+nav a.getInvolved {
     background-color: #FFCD69;
 }
