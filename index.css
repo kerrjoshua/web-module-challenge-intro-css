@@ -56,7 +56,7 @@ table {
 
 header img {
 	border-radius: 50%;
-	max-width: 20%;
+	max-width: 24%;
 
 }
 
@@ -65,12 +65,22 @@ img {
 	object-fit: scale-down;
 }
 header {
-	height: 15%;
+	text-align: center;
 }
 
+header p{
+	width: 80%;
+	font-size: 1.2rem;
+}
+
+p.narrow {
+	width: 50%;
+}
 h1 {
 	font-family: Chelsea Market ;
-	font-size: 1.8rem;
+	font-size: 2.4rem;
+	display: block;
+	margin: 3%;
 }
 .container{
 	margin: 0 auto;
@@ -79,6 +89,8 @@ h1 {
 
 .content-row {
 	display: flex;
+	padding: 3%;
+	margin:
   }
   
   .content-row div {
@@ -87,25 +99,23 @@ h1 {
   }
 
 .container nav a {
-	margin: 0 10px;
+	margin: 0 7%;
 	border: 1px solid lightgray;
-	padding: 20px;
+	padding: 1% 3%;
 	display: inline-block;
 	border-radius: 20px;
 	color: white;
 	text-decoration: none;
-	margin-bottom: 20px;
-	 /*======= create a background property. Set the value to #F87B99 */
-	background: #F87B99;
+	
   }
 nav  {
 	margin: 0 auto;
-	border: 2px solid red;
     height: 5rem;
 	padding: 1%;
 }
 nav a.plan{
     background-color: #FF764E;
+	float: left;
 }
 
 nav a.learn {
@@ -114,4 +124,5 @@ nav a.learn {
 
 nav a.getInvolved {
     background-color: #FFCD69;
+	float: right;
 }
