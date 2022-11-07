@@ -152,12 +152,18 @@ nav a.getInvolved {
 }
 
 footer {
-	height: 20%;
 	border: 1px solid red;
+}
+div.footerImg {
+	height: 10%;
 }
 footer img {
 	border: 1px solid red;
 	display: inline-block;
 	border-radius: 0;
-	height: 55%;
+	height: 70%;
+
+	object-fit: none;
+	object-position: 0 0;
+
 }
