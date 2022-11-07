@@ -70,7 +70,7 @@ img {
 }
 
 img.small {
-	max-width: 20%;
+	width: 50%;
 }
 header {
 	text-align: center;
@@ -83,7 +83,9 @@ header p{
 
 p.narrow {
 	width: 50%;
+	margin: 0 auto;
 	text-align: center;
+	display:block;
 }
 h1 {
 	font-family: Chelsea Market ;
@@ -143,6 +145,19 @@ nav a.getInvolved {
 	padding: .8% 1%;
 	text-align: center;
 }
+#content div{
+	margin: 0 auto;
+	width: 60%;
+	display: block;
+}
+
+footer {
+	height: 20%;
+	border: 1px solid red;
+}
 footer img {
-	width: 100%;
+	border: 1px solid red;
+	display: inline-block;
+	border-radius: 0;
+	height: 55%;
 }
